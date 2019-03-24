@@ -1,45 +1,407 @@
-@media(max-width:1278px){
+@media(max-width:1024px){
     .container{
         width: 100%;
     }
+    .first_part{
 
-    .content_left{
-        width: 100%;
-    }
-    .content_right{
-        width: 50%;
     }
 
-    .form{
-        padding: 0;
-        margin: 0;
+    .box_one  {
+        width: 25%;
     }
 
-    .contact{
-        width: 100%;
+    .box_two{
+        width: 25%;
     }
 
+    .box_three{
+        width: 25%;
+    }
+
+    .box_four{
+        width: 25%;
+        margin: 30px 310px 0px 310px;
+    }
+
+    .blip1 {
+        position: absolute;
+        right: 0px;
+        top: 11px;
+    }
     
 
-}
+    .blip2 {
+        position: absolute;
+        right: 268px;
+        top: 538px;
+        transform: scale(0.6) rotate(-30deg);
+    }
 
-@media(max-width:959px){
-    .container{
-        width: 100%;
+    .second_part{
+        margin:0;
     }
     
-}
+    #half{
+        margin-top: -193px;
+        margin-bottom: 30px; 
+    }
+    .six{
+        width: 257px;
+    }
+
+    #one_two{
+        height: 74px;
+    }
+
+
+    .six_week{
+        width: 30%;
+        float: left;
+        padding: 0px 20px 0 30px;
+        padding-top: 200px;
+    }
+
+    .nine_week {
+        width: 30%;
+        float: left;
+        padding: 0px 20px 0 30px;
+        padding-top: 120px;
+    }
+
+    .fourteen_week {
+        width: 30%;
+        float: left;
+        padding: 0px 20px 0 30px;
+        padding-top: 38px;
+    }
+
+    .five_week{
+        width: 30%;
+        padding: 30px 23px;
+        margin: 0 349px;
+    }
+
+    .para2{
+        margin-left: 252px;
+    }
+
+    .invi {
+        padding: 0px 167px;
+    }
+}   
 
 @media(max-width:768px){
     .container{
         width: 100%;
     }
 
-}
-
-@media screen and (min-width: 480px){
-    .container{
+    header{
+        background-size: cover;
+    }
+    .content{
         width: 100%;
     }
+    .content_right {
+        width: 43%;
+        margin: 0 244px;
+    }
+
+    .powered{
+        padding: 0;
+        margin: 0;
+    }
+
+    #border {
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 0;
+        margin: 0 218px;
+    }
+
+    .content_left {
+        width: 100%;
+        float: left;
+        padding: 0 20px 0 20px;
+    }
+
+    .blip2 {
+        position: absolute;
+        left: 150px;
+        top: 885px;
+    }
+
+    .blip1{
+        position: absolute;
+        right: 135px;
+        top: 508px;
+    }
+
+    input{
+        padding: 7px 15px;
+    }
+
+    form{
+        padding: 10px 10px;
+    }
+
+    .online{
+        padding: 0;
+    }
+    .save{
+        margin-bottom: 0;
+    }
     
+    #half {
+        margin-top: -141px
+    }
+
+    .line{
+        padding:0 0 0 50px; 
+    }
+
+    .box_one {
+        width: 32%;
+        margin: 20px 50px;
+    }
+
+    .box_two {
+        width: 32%;
+        margin: 20px 50px;
+    }
+
+    .box_three {
+        width: 32%;
+        margin: 20px 50px;
+    }
+
+    .box_four {
+        width: 32%;
+        margin: 20px 50px;
+    }
+
+    .first_person {
+        width: 40%;
+        margin: 0 20px;
+    }
+
+    .second_person {
+        width: 40%;
+        margin: 0 20px;
+    }
+
+    .third_person {
+        width: 40%;
+        margin: 15px 140px;
+    }
+
+    .first_partner{
+      width: 45%;
+    }
+
+    .second_partner{
+        width: 45%;
+    }
+
+    .third_partner{
+        width: 45%;
+        float: none;
+        padding: 130px 20px 0 30px;
+    }
+
+    .six_week{
+        width: 41%;
+        float: left;
+        padding: 0px 20px 0 30px;
+        padding-top: 200px;
+    }
+
+    .nine_week {
+        width: 41%;
+        float: left;
+        padding: 0px 20px 0 30px;
+        padding-top: 120px;
+    }
+
+    .fourteen_week {
+        width: 41%;
+        float: left;
+        padding: 0 20px 47px 30px;
+        padding-top: 214px;
+    }
+
+    .five_week{
+        width: 41%;
+        padding: 50px 20px 47px 30px;
+        margin: 0;
+    }
+
+    .invi {
+        padding: 0px 37px;
+    }
+
+    .invi2{
+        padding-right: 37px;
+        padding-left: 37px;
+        transform: rotate(180deg);
+        padding-top: 50px;
+    }
+
+    .para2 {
+        width: 91%;
+        margin: 0 29px
+    }
+
+    .data_left{
+        width:40%;
+        margin: 20px 223px
+    }
+
+    .data_right{
+        width:40%;
+        margin: 20px 223px
+    }    
 }
+
+@media(max-width:768px){
+    #border{
+        margin:0 27px;
+    }
+
+    .content_right {
+        width: 86%;
+    }
+
+    .blip1 {
+        position: absolute;
+        right: 0px;
+        top: 615px;
+    }
+
+    .blip2 {
+        position: absolute;
+        left: -29px;
+        top: 1039px;
+    }
+
+    .head_2 {
+        width: 91%;
+    }
+
+    .box_one {
+        width: 71%;
+        margin: 20px 5px;
+    }
+
+    .box_two {
+        width: 71%;
+        margin: 20px 5px;
+    }
+
+    .box_three {
+        width: 71%;
+        margin: 20px 5px;
+    }
+
+    .box_four {
+        width: 71%;
+        margin: 20px 5px;
+    }
+
+    .first_person {
+        width: 100%;
+        margin: 25px 7px;
+    }
+
+    .second_person {
+        width: 100%;
+        margin: 25px 7px;
+    }
+
+    .third_person {
+        width: 100%;
+        margin: 25px 7px;
+    }
+
+    .third_head {
+        width: auto;
+        margin: 0 40px;
+    }
+
+    
+    .partner {
+        padding: 40px 0px 40px 67px;
+    }
+
+    .first_partner {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .second_partner {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .third_partner {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .first_partners {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .third_partners {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+
+    #heading{
+        padding-left: 26px;
+    }
+
+    .six_week{
+        width: 100%;
+        padding-top: 91px;
+    }
+
+    .nine_week{
+        width: 100%;
+        padding-top: 57px;
+    }
+    
+    .fourteen_week{
+        width: 100%;
+        padding-top: 45px;
+    }
+
+    .five_week{
+        width: 100%;
+        padding-top: 12px;
+    }
+
+    .invi {
+        padding: 0px 0px;
+    }
+
+    .para2 {
+        width: 100%;
+        margin: 0 9px;
+        font-size: 13px;
+    }
+
+    .data_left {
+        width: 80%;
+        margin: 20px 32px;
+    }
+
+    .data_right {
+        width: 80%;
+        margin: 20px 25px;
+    }
+
+}
+
+
